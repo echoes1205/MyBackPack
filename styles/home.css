@@ -1,0 +1,29 @@
+.cuadrado{
+    width: 200px;
+    height: 200px;
+    background-color: white;
+    margin-bottom: 20px;
+    border-radius: 25px;
+    display: inline-block;
+    width: 150px;
+    height: 150px;
+    margin-right: 2em;
+    
+    
+}
+
+.contenedor{
+    display: flex;
+    justify-content: center;
+    height: 10vh;
+    margin: 10%;
+
+}
+
+.contenedor2{
+    display: flex;
+    justify-content: center;
+    height: 50vh;
+    margin: 50%;
+
+}

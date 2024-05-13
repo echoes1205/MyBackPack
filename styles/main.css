@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Catamaran:wght@100;200;300;400;500;600;700;800;900&family=Hind+Madurai:wght@300;400;500;600;700&family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+*{
+    font-family: 'Catamaran', sans-serif;
+}
+
+body{
+    background: url('img/fondoLogin.png') no-repeat center center fixed;
+    background-size: cover;
+}
+
+h1{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 800;
+    font-size: 2em;
+}
+
+#barra-buscar:focus{
+    outline:none !important;
+    outline-width: 0 !important;
+    box-shadow: none;
+    -moz-box-shadow: none;
+    -webkit-box-shadow: none;
+}
+
+#barra-buscar::-webkit-search-cancel-button{
+    display: none;
+}
+
+/* Navbar */
+.navigation-bar .search-bar{
+    border-radius: 0;
+    font-size: 0.8em;
+}
+
+.navigation-bar .search-bar:focus{
+    box-shadow: none;
+}
+
+.navigation-bar .search-bar::-webkit-search-cancel-button{
+    display: none;
+}
+
+.navigation-bar .btn-amigos:hover,
+.navigation-bar .btn-config:hover,
+.navigation-bar .btn-salir:hover{
+    background: aqua solid;
+}
+
+/* Reproductor */
+.controls {
+    font-family: 'Hind Madurai', sans-serif;
+    font-size: 0.9em;
+    color: #000;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.controls .slider {
+    background-color: rgba(0, 0, 0, 0.2);
+    border-radius: 2px;
+    height: 4px;
+}
+
+.controls .slider-mobile {
+    background-color: rgba(255, 255, 255, 0.2);
+}
+
+.controls .slider .progress { 
+    background-color: #720026;
+    width: 50%;
+    height: 100%;
+}
+
+.controls .slider .progress-mobile { 
+    background-color: #FF9B54;
+}
+
+.controls span {
+    cursor: default;
+}
